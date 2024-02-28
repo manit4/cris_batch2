@@ -1,0 +1,37 @@
+package com.example.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.dto.Address;
+
+@Service
+public class AddressService {
+	
+	List<Address> addresses;
+	
+	public AddressService() {
+		
+		Address address1 = new Address("a_01", "Gurgaon", "100");
+		Address address3 = new Address("a_03", "Mumbai", "101");
+		Address address4 = new Address("a_04", "Bangalore", "102");
+		
+		addresses = new ArrayList<Address>();
+		addresses.add(address1);  addresses.add(address2);  addresses.add(address3);  addresses.add(address4);
+	}
+
+	public Address getAddressByStudentId(String id) {
+		
+		Address returnedAddress = null;
+		
+		for(Address address : addresses) {
+			
+			if( address.getStudent_id().equals(id)) {
+				returnedAddress = address;
+			}
+		}
+		return returnedAddress;
+	}
+}
