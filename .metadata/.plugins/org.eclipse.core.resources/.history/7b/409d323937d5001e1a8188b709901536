@@ -1,0 +1,43 @@
+package org.cris.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.cris.model.User;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class UserRepository {
+	
+	List<User> users;
+
+	public UserRepository() {
+		
+		User user1 = new User("vijay12", "1234", "Vijay", "Meena");
+		User user2 = new User("Munish12", "2345", "Munish", "Kumar");
+		User user3 = new User("Manit12", "3456", "Manit", "Sharma");
+		User user4 = new User("Ashish12", "4567", "Ashish", "Verma");
+		
+		users = new ArrayList<User>();
+		users.add(user1);  users.add(user2);   users.add(user3);   users.add(user4);
+	}
+	
+	public List<User> getAllUsers() {
+		return users;
+	}
+	
+	public User getUserById(String id) {
+		
+		for(User user : users) {
+			
+			if(user.getUsername().equals(id)) {
+				return user;
+			}
+		}
+		return null;
+		
+		
+		
+		
+	}
+}

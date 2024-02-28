@@ -1,0 +1,28 @@
+package org.cris.controller;
+
+import org.cris.model.User;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+	
+	public UserController() {
+		System.out.println("inside UserContro  constr....");
+	}
+	
+	@RequestMapping("/msg")
+	public String getMessage() {
+		
+		return "Hello everyone";
+	}
+	
+	@RequestMapping("/getUser")
+	public User getUser() {
+		
+		User user = new User("vijay12", "1234", "Vijay", "Meena");
+		
+		return user;
+	}
+
+}

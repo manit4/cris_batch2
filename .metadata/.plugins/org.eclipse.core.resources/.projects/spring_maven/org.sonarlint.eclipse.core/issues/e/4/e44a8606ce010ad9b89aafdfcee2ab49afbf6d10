@@ -1,0 +1,32 @@
+
+o	java:S125î"<This block of commented-out lines of code should be removed.(³ûÕï8Òò¢Þ1HæRMAJORZ
+CODE_SMELL
+E
+java:S1220""Move this file to a named package.HRMINORZ
+CODE_SMELL
+k	java:S106
+"9Replace this use of System.out or System.err by a logger.(¶‹Í8á¹„¦Þ1H“RMAJORZ
+CODE_SMELL
+s	java:S125:"<This block of commented-out lines of code should be removed.(»£Ï¡øÿÿÿÿ8ñâí¥Þ1HºRMAJORZ
+CODE_SMELL
+d
+java:S1481",Remove this unused "context" local variable.(¦‘ªüÿÿÿÿ8ƒ¦¦Þ1HÈRMINORZ
+CODE_SMELL
+o	java:S125“"<This block of commented-out lines of code should be removed.(³ûÕï8ƒ¦¦Þ1HØRMAJORZ
+CODE_SMELL
+t	java:S125Ä"<This block of commented-out lines of code should be removed.(»£Ï¡øÿÿÿÿ8Î¿Ÿ¥Þ1H¢RMAJORZ
+CODE_SMELL
+s	java:S125g"<This block of commented-out lines of code should be removed.(»£Ï¡øÿÿÿÿ8Ò¸½¥Þ1HßRMAJORZ
+CODE_SMELL
+t	java:S125•"<This block of commented-out lines of code should be removed.(»£Ï¡øÿÿÿÿ8þ¦Þ1HÝRMAJORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(³ûÕï8áç¬¢Þ1H>RMAJORZ
+CODE_SMELL
+o	java:S125¸"<This block of commented-out lines of code should be removed.(³ûÕï8ØÚ‰¥Þ1H•RMAJORZ
+CODE_SMELL
+s
+java:S1854";Remove this useless assignment to local variable "context".(¦‘ªüÿÿÿÿ8¬ÈÒ¦Þ1HÇRMAJORZ
+CODE_SMELL
+˜
+java:S1128"fRemove this unused import 'org.springframework.context.annotation.AnnotationConfigApplicationContext'.(€¡¹;8¬ÈÒ¦Þ1HÈRMINORZ
+CODE_SMELL

@@ -1,0 +1,82 @@
+package com.example.entity;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+
+@Entity
+
+public class Student {
+	
+	@Id
+	private String id;
+	private String name;
+	private String password;
+//	@OneToOne(mappedBy = "student", cascade = CascadeType.ALL)
+//	private Address address;
+	
+	@OneToMany()
+	private List<Address> addresses = new ArrayList<Address>();
+	
+	public Student() {
+		
+	}
+	public Student(String id, String name, String password, Address address) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.password = password;
+		this.address = address;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	@Override
+	public int hashCode() {
+		return Objects.hash(address, id, name, password);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Student other = (Student) obj;
+		return Objects.equals(address, other.address) && Objects.equals(id, other.id)
+				&& Objects.equals(name, other.name) && Objects.equals(password, other.password);
+	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", password=" + password + ", address=" + address + "]";
+	}
+
+	
+	
+}

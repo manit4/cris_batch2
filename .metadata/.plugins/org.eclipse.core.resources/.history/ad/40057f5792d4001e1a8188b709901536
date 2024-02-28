@@ -1,0 +1,17 @@
+package org.cris.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.cris.service.UserService;
+
+@Configuration
+@ComponentScan("org.cris, com.cris")
+public class SpringConfig {
+	
+	public UserService getUserService() {
+		System.out.println("inside getUserService()");
+		return new UserService();
+	}
+
+}

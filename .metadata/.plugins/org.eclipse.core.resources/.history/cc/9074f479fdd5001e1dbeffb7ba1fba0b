@@ -1,0 +1,77 @@
+package com.example;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.entity.Address;
+import com.example.entity.Student;
+import com.example.repository.StudentRepository;
+import com.example.repository.UserRepository;
+
+@SpringBootApplication
+public class JpaDemoApplication implements CommandLineRunner {
+	
+	@Autowired
+	UserRepository userRepository;
+	
+	@Autowired
+	StudentRepository studentRepository;
+
+	public static void main(String[] args) {
+		SpringApplication.run(JpaDemoApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+//		User user1 = new User(102, "Vijay", "Sharma", "123465");
+//		User user2 = new User(101, "Shubham", "verma", "2345");
+//
+//		//userRepository.save(user2);
+//		userRepository.save(user1);
+//		
+//		//System.out.println(userRepository.getUserByFirstName(101, "Shubham").getLastName());
+//		
+//		//List<User> fetchedUsers = userRepository.findByFirstNameAndLastName("Vijay", "Sharma");
+//		//fetchedUsers.stream().forEach(userr->System.out.println(userr));
+//		
+//		//userRepository.getUsers().forEach(user->System.out.println(user));
+		
+		
+		Student student = new Student();
+		student.setId("100");   student.setName("Vijay");   student.setPassword("1234");
+		
+		Address address = new Address("a_01", "Gurgaon", student);
+		
+		student.setAddress(address);
+		
+		studentRepository.save(student);
+		
+		Optional<Student> s1 = studentRepository.findById("100");
+		
+		Student obj = null;
+		
+		if(s1.isPresent()) {
+			obj = s1.get();
+		}
+		
+		System.out.println(obj);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

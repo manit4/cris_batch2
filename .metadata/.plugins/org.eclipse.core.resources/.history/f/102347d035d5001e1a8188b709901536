@@ -1,0 +1,24 @@
+package org.cris.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.cris.model.User;
+
+public class UserRepository {
+	
+	List<User> users;
+
+	public UserRepository() {
+		
+		User user1 = new User("vijay12", "1234", "Vijay", "Meena");
+		User user2 = new User("Munish12", "2345", "Munish", "Kumar");
+		
+		users = new ArrayList<User>();
+		users.add(user1);  users.add(user2);
+	}
+	
+	public List<User> getAllUsers() {
+		return users;
+	}
+}

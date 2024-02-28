@@ -1,0 +1,18 @@
+package com.cris.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.cris.service.UserService;
+
+@Controller
+public class UserController {
+	
+	UserService userService = new UserService();
+	
+	public UserController() {
+		System.out.println("inside UserController constr....");
+	}
+	
+	
+
+}

@@ -1,0 +1,23 @@
+package com.example.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+public class Laptop {
+	
+	@Id
+	private int id;
+	private int price;
+	@OneToOne(fetch = FetchType.EAGER)
+	private Employee employee;
+
+}

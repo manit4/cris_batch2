@@ -1,0 +1,150 @@
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+class Tea {
+	
+	String name;
+	
+	Tea() {
+		System.out.println("insdie Tea constr....");
+	}
+	
+}
+
+
+class Restaurant {
+
+	String name;
+	
+	public Restaurant() {
+		System.out.println("inside Rest cons..");
+	}
+}
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
+		
+		Restaurant restaurant = context.getBean("restaurantBean", Restaurant.class);
+		
+		
+	}
+}
+
+
+
+
+//class Restaurant {
+//	
+//	String name;
+//	int age;
+//
+//	public Restaurant(String name, int age) {
+//		System.out.println("inside parameterized....");
+//		this.name = name;
+//		this.age = age;
+//	}
+//
+//	void prepareTea() {
+//		
+//		System.out.println("Your Tea is being prepared by "+name+ " and the age is ");
+//	}	
+//	
+//	public Restaurant() {
+//		System.out.println("inside Rest constr...");
+//	}
+//}
+//
+//public class Main {
+//	
+//	public static void main(String[] args) {
+//		
+//		
+//		ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
+//		
+//		Restaurant restaurant = context.getBean("restaurantBean", Restaurant.class);
+//		
+//		restaurant.prepareTea();
+//		
+//	}
+//}
+
+
+
+//class Restaurant {
+//	
+//	String name;
+//
+//	public void setName(String name) {
+//		System.out.println("inside setName()");
+//		this.name = name;
+//	}
+//
+//
+//	void prepareTea() {
+//		
+//		System.out.println("Your Tea is being prepared by "+name);
+//	}	
+//	
+//	public Restaurant() {
+//		System.out.println("inside Rest constr...");
+//	}
+//}
+//
+//public class Main {
+//	
+//	public static void main(String[] args) {
+//		
+//		
+//		ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
+//		
+//		Restaurant restaurant = context.getBean("restaurantBean", Restaurant.class);
+//		
+//		restaurant.prepareTea();
+//		
+//	}
+//}
+
+
+
+
+//class Restaurant {
+//	
+//	String name;
+//	
+//	void prepareTea() {
+//		
+//		System.out.println("Your Tea is being prepared....");
+//	}
+//	
+//	public Restaurant() {
+//		System.out.println("I am in Restautant Constr...");
+//	}
+//	
+//}
+//
+//public class Main {
+//	
+//	public static void main(String[] args) {
+//		
+//		
+//		ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
+//		
+////		Restaurant restaurant = context.getBean("restaurantBean", Restaurant.class);
+////		
+////		restaurant.prepareTea();	
+//		
+//		
+//		
+//		
+////		Restaurant restaurant = new Restaurant();
+////		
+////		restaurant.prepareTea();
+//		
+//	}
+//
+//}

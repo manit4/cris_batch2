@@ -1,0 +1,18 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.( À´Ç8î›¼ÉŞ1HŠRMAJORZ
+CODE_SMELL
+
+java:S1488("\Immediately return this expression instead of assigning it to the temporary variable "user".(ù¬ş“8êê©ÈŞ1H˜RMINORZ
+CODE_SMELL
+n	java:S125."<This block of commented-out lines of code should be removed.(²™¢8ƒò”ÉŞ1HÄRMAJORZ
+CODE_SMELL
+s	java:S125&"<This block of commented-out lines of code should be removed.(ã…–ùÿÿÿÿ8îĞÛÈŞ1H¹RMAJORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(™„l8€‹ÛÈŞ1H´RMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(Ê‚‘Ô8İœÆÊŞ1H¹RMAJORZ
+CODE_SMELL
+n	java:S125:"<This block of commented-out lines of code should be removed.(²™¢8İœÆÊŞ1HºRMAJORZ
+CODE_SMELL
+s	java:S125C"<This block of commented-out lines of code should be removed.(³ø–şÿÿÿÿ8İœÆÊŞ1H¾RMAJORZ
+CODE_SMELL

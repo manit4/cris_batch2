@@ -1,0 +1,40 @@
+
+class Restaurant {
+	
+	String name;
+	
+	void prepareTea() {
+		
+		System.out.println("Your Tea is being prepared....");
+	}
+	
+}
+
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		Restaurant restaurant = new Restaurant();
+//		
+//		restaurant.prepareTea();
+		
+	}
+
+}

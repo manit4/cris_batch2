@@ -1,0 +1,17 @@
+
+class Restaurant {
+	
+	void prepareTea() {
+		
+		System.out.println("Your Tea is being prepared....");
+	}
+}
+
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

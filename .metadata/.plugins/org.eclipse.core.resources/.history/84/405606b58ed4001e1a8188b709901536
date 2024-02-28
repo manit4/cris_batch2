@@ -1,0 +1,13 @@
+package org.cris;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Restaurant {
+	
+	void prepareTea() {
+		
+		System.out.println("I am preparing Tea...");
+	}
+
+}

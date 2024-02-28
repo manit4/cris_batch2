@@ -1,0 +1,18 @@
+package com.example.repository;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.example.entity.User;
+
+public interface UserRepository extends JpaRepository<User, Integer>{
+	
+	public List<User> findByFirstNameAndLastName(String firstName, String lastName);
+	
+	@Query(value = "select u from User u", nativeQuery = false)
+	public List<User> getUsers();
+
+}

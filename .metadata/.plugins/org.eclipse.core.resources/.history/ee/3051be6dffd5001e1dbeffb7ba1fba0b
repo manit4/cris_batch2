@@ -1,0 +1,85 @@
+package com.example.entity;
+
+import java.util.Objects;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToOne;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+public class Address {
+
+	@Id
+	private String id;
+	private String city;
+	
+	@OneToOne
+	@JoinColumn(name = "s_id")
+	private Student student;
+
+	public Address() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Address(String id, String city, Student student) {
+		super();
+		this.id = id;
+		this.city = city;
+		this.student = student;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public Student getStudent() {
+		return student;
+	}
+
+	public void setStudent(Student student) {
+		this.student = student;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(city, id, student);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Address other = (Address) obj;
+		return Objects.equals(city, other.city) && Objects.equals(id, other.id)
+				&& Objects.equals(student, other.student);
+	}
+
+	@Override
+	public String toString() {
+		return "Address [id=" + id + ", city=" + city + ", student=" + student + "]";
+	}
+	
+	
+	
+}

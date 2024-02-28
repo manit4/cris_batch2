@@ -1,0 +1,19 @@
+
+s	java:S125"<This block of commented-out lines of code should be removed.(×…Öıùÿÿÿÿ8ØŠƒÒŞ1HªRMAJORZ
+CODE_SMELL
+x
+java:S1612""@Replace this lambda with method reference 'System.out::println'.(Ÿ«ÓÍıÿÿÿÿ8§û™ÒŞ1H¼RMINORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¬åšÒŞ1HÈRMINORZ
+CODE_SMELL
+g
+java:S1128
+"4Remove this unused import 'com.example.entity.User'.(·›¤´8¬åšÒŞ1HÊRMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(–€Óü8¬åšÒŞ1HÆRMAJORZ
+CODE_SMELL
+p	java:S106""9Replace this use of System.out or System.err by a logger.(Ÿ«ÓÍıÿÿÿÿ8§û™ÒŞ1H¾RMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(—È÷»8Ò”€ÒŞ1H¤RMAJORZ
+CODE_SMELL

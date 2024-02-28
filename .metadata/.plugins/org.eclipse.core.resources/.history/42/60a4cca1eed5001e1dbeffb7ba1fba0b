@@ -1,0 +1,52 @@
+package com.example;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.entity.Employee;
+import com.example.repository.EmployeeRepository;
+import com.example.repository.UserRepository;
+
+@SpringBootApplication
+public class JpaDemoApplication implements CommandLineRunner {
+	
+	@Autowired
+	UserRepository userRepository;
+	
+	@Autowired
+	EmployeeRepository employeeRepository;
+
+	public static void main(String[] args) {
+		SpringApplication.run(JpaDemoApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+//		User user1 = new User(100, "Vijay", "Sharma", "1234");
+//		User user2 = new User(101, "Shubham", "verma", "2345");
+//
+//		userRepository.save(user2);
+//		userRepository.save(user1);
+		
+		System.out.println(userRepository.getUserByFirstName(100).getFirstName());
+		
+		//List<User> fetchedUsers = userRepository.findByFirstNameAndLastName("Vijay", "Sharma");
+		//fetchedUsers.stream().forEach(userr->System.out.println(userr));
+		
+		//userRepository.getUsers().forEach(user->System.out.println(user));
+		
+		
+		
+		//System.out.println(employeeRepository.findById(100).get().getLaptop().getPrice());
+		
+		System.out.println("the data is ");
+		
+		Employee emp =  employeeRepository.getEmployeeById(100);
+		System.out.println(emp.getLaptop());
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+server.port=8081
+
+info.projectname=cris
+info.team=Development Team
+
+management.info.env.enabled=true
+
+management.endpoints.web.exposure.include=metrics, info, health
+
+spring.boot.admin.client.url=http://localhost:8083
+spring.boot.application.name=client-service

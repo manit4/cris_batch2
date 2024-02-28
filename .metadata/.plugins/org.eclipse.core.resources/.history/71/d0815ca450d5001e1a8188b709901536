@@ -1,0 +1,19 @@
+package com.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class JpaDemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JpaDemoApplication.class, args);
+		
+		int i = 4, j = 5, k = 0;
+		
+		k = i + j;
+		
+		System.out.println("The addition is "+k);
+	}
+
+}

@@ -1,0 +1,44 @@
+package com.cris.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.cris.model.User;
+import org.cris.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserService {
+	
+	@Autowired
+	UserRepository userRepository;
+	
+	public UserService() {
+		System.out.println("inside UserService constr....");
+	}
+	
+	public List<User> filteredUserByNameSize() {
+		
+		List<User> users = userRepository.getAllUsers();
+		
+		//List<User> filteredUsers = new ArrayList<User>();
+		
+		List<User> filteredUsers = users.stream().filter(user->user.getFirstName().length() > 5).collect(Collectors.toList());
+		
+		
+//		for(User user : users) {
+//			
+//			if(user.getFirstName().length() > 5) {
+//				
+//				filteredUsers.add(user);
+//			}
+//		}
+		return filteredUsers;
+	}
+	
+	
+	
+
+}

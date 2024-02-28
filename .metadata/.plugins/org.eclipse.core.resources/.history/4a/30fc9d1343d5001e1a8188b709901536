@@ -1,0 +1,8 @@
+server.port=8081
+
+info.projectname=cris
+info.team=Development Team
+
+management.info.env.enabled=true
+
+management.endpoints.web.exposure.include=metrics, info, health

@@ -1,0 +1,27 @@
+package com.example.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@Entity
+@AllArgsConstructor
+@Table(name = "user_details")
+public class User {
+	
+	@Id
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String password;
+	
+	public String toString() {
+		return "the username is "+id+", and the firstName is "+firstName;
+	}
+
+}

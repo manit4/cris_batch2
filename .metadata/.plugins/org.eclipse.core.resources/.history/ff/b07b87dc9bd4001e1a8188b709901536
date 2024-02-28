@@ -1,0 +1,27 @@
+package org.cris;
+
+import org.cris.controller.UserController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+import com.cris.service.UserService;
+
+@SpringBootApplication
+@ComponentScan("com.cris, org.cris")
+public class FirstSpringbootApplication {
+	
+	@Autowired
+	UserController userController;
+	
+	@Autowired
+	UserService userService;
+
+	public static void main(String[] args) {
+		SpringApplication.run(FirstSpringbootApplication.class, args);
+		
+		System.out.println("inside main()....");
+	}
+
+}

@@ -1,0 +1,16 @@
+
+
+java:S1488"eImmediately return this expression instead of assigning it to the temporary variable "filteredUsers".(»Ğ¶¬üÿÿÿÿ8µ®ßÊŞ1HÃRMINORZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8µ®ßÊŞ1HÍRMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(çÎâ…8µ®ßÊŞ1HÆRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ï¡î«8ä¦Ê©Ş1HñRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(Şê…î8µ®ßÊŞ1HÈRMAJORZ
+CODE_SMELL
+p
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ÅÓçÊŞ1HØRMINORZ
+CODE_SMELL

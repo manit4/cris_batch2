@@ -1,0 +1,38 @@
+package com.example;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.entity.User;
+import com.example.repository.UserRepository;
+
+@SpringBootApplication
+public class JpaDemoApplication implements CommandLineRunner {
+	
+	@Autowired
+	UserRepository userRepository;
+
+	public static void main(String[] args) {
+		SpringApplication.run(JpaDemoApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		//User user1 = new User(100, "Vijay", "Sharma", "1234");
+		//User user2 = new User(101, "Shubham", "verma", "2345");
+
+		//userRepository.save(user2);
+		
+		//List<User> fetchedUsers = userRepository.findByFirstNameAndLastName("Vijay", "Sharma");
+		//fetchedUsers.stream().forEach(userr->System.out.println(userr));
+		
+		userRepository.getUsers().forEach(user->System.out.println(user));;
+		
+	}
+
+}
