@@ -2069,3 +2069,450 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2024-02-28 15:26:16,983 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-02-28 15:26:17,044 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-02-28 15:26:17,049 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:42:22,385 [Worker-158: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:micros_demo:0.0.1-SNAPSHOT @ C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\pom.xml.
+2024-02-28 15:42:41,825 [Worker-158: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:micros_demo:0.0.1-SNAPSHOT @ C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\pom.xml.
+2024-02-28 15:42:42,727 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:42:42,727 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:42:42,728 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:42:43,520 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:42:43,522 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:42:43,523 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:43:23,317 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:43:23,374 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:43:23,376 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:43:40,009 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:43:40,031 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:43:40,032 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:46:48,475 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:46:48,511 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:46:48,513 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:49:53,387 [Worker-159: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:micros_demo:0.0.1-SNAPSHOT @ C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\pom.xml.
+2024-02-28 15:49:53,646 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:49:53,646 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:49:53,648 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:49:54,915 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:49:54,916 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:49:54,917 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:50:32,420 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:50:32,490 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:50:32,491 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:50:52,525 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:50:52,529 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:50:52,530 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:51:43,175 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:51:43,180 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:51:43,181 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:53:01,067 [Worker-162: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:579) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:547) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:503) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:303) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: Unrecognised tag: 'dependencyManagement' (position: START_TAG seen ...</dependencies>-->\n\t\n\t<dependencyManagement>... @49:24) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:577) ~[na:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognised tag: 'dependencyManagement' (position: START_TAG seen ...</dependencies>-->\n\t\n\t<dependencyManagement>... @49:24) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkUnknownElement(MavenXpp3Reader.java:178) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseDependency(MavenXpp3Reader.java:1402) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2239) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112) ~[na:na]
+	... 26 common frames omitted
+2024-02-28 15:53:02,382 [Worker-152: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:579) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:547) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:503) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:303) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: Unrecognised tag: 'dependencyManagement' (position: START_TAG seen ...</dependencies>-->\n\t\n\t<dependencyManagement>... @49:24) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:577) ~[na:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognised tag: 'dependencyManagement' (position: START_TAG seen ...</dependencies>-->\n\t\n\t<dependencyManagement>... @49:24) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkUnknownElement(MavenXpp3Reader.java:178) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseDependency(MavenXpp3Reader.java:1402) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2239) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112) ~[na:na]
+	... 26 common frames omitted
+2024-02-28 15:53:11,572 [Worker-162: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address\pom.xml: end tag name </project> must match start tag name <dependency> from line 43 (position: TEXT seen ...</plugins>\n\t</build>\n\n</project>... @78:11)  @ line 78, column 11
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address\pom.xml: end tag name </project> must match start tag name <dependency> from line 43 (position: TEXT seen ...</plugins>\n\t</build>\n\n</project>... @78:11)  @ line 78, column 11
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:696) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:851) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1009) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:847) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:201) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:87) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:255) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2024-02-28 15:53:11,668 [Worker-158: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:579) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:547) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:503) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:303) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: Unrecognised tag: 'build' (position: START_TAG seen ...</dependencyManagement>-->\n\n\t<build>... @61:9) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:577) ~[na:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognised tag: 'build' (position: START_TAG seen ...</dependencyManagement>-->\n\n\t<build>... @61:9) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkUnknownElement(MavenXpp3Reader.java:178) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseDependency(MavenXpp3Reader.java:1402) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2239) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112) ~[na:na]
+	... 26 common frames omitted
+2024-02-28 15:54:11,749 [Worker-162: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address\pom.xml: end tag name </dependencies> must match start tag name <dependency> from line 43 (position: TEXT seen ...</dependency>-->\n\t</dependencies>... @47:17)  @ line 47, column 17
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address\pom.xml: end tag name </dependencies> must match start tag name <dependency> from line 43 (position: TEXT seen ...</dependency>-->\n\t</dependencies>... @47:17)  @ line 47, column 17
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:696) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:851) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1009) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:847) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:201) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:87) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:255) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2024-02-28 15:54:11,859 [Worker-152: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:579) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:547) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:503) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:303) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <dependency> from line 43 (position: TEXT seen ...</dependency>-->\n\t</dependencies>... @47:17) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:577) ~[na:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <dependency> from line 43 (position: TEXT seen ...</dependency>-->\n\t</dependencies>... @47:17) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2090) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1361) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1305) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseDependency(MavenXpp3Reader.java:1350) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2239) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112) ~[na:na]
+	... 26 common frames omitted
+2024-02-28 15:54:21,899 [Worker-160: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/micros_address/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049) ~[na:na]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220) ~[na:na]
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048) ~[na:na]
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2024-02-28 15:54:21,973 [Worker-159: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:micros_address:0.0.1-SNAPSHOT @ C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address\pom.xml.
+2024-02-28 15:54:22,216 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:54:22,216 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:54:22,217 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address\src\test\resources
+2024-02-28 15:54:31,318 [Worker-159: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/micros_address/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:831) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$26(ProjectRegistryManager.java:1049) ~[na:na]
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220) ~[na:na]
+	at java.base/java.util.Collections$SynchronizedMap.computeIfAbsent(Collections.java:2760) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$25(ProjectRegistryManager.java:1048) ~[na:na]
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1054) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1048) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:261) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:257) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:659) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:979) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2024-02-28 15:54:31,418 [Worker-162: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:579) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:547) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:503) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:303) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: comment started on line 49 and column 6 was not closed (position: END_TAG seen ...</build>\n\n</project>\n... @79:1) caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 2, parser stopped on END_TAG seen ...</build>\n\n</project>\n... @79:1
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:577) ~[na:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: comment started on line 49 and column 6 was not closed (position: END_TAG seen ...</build>\n\n</project>\n... @79:1) caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 2, parser stopped on END_TAG seen ...</build>\n\n</project>\n... @79:1
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseComment(MXParser.java:2988) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1420) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1302) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2072) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112) ~[na:na]
+	... 26 common frames omitted
+Caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 2, parser stopped on END_TAG seen ...</build>\n\n</project>\n... @79:1
+	at org.codehaus.plexus.util.xml.pull.MXParser.fillBuf(MXParser.java:3760) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.more(MXParser.java:3776) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseComment(MXParser.java:2901) ~[na:na]
+	... 33 common frames omitted
+2024-02-28 15:54:32,639 [Worker-160: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:579) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:547) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:503) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:303) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:198) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: comment started on line 49 and column 6 was not closed (position: END_TAG seen ...</build>\n\n</project>\n... @79:1) caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 2, parser stopped on END_TAG seen ...</build>\n\n</project>\n... @79:1
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:577) ~[na:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: comment started on line 49 and column 6 was not closed (position: END_TAG seen ...</build>\n\n</project>\n... @79:1) caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 2, parser stopped on END_TAG seen ...</build>\n\n</project>\n... @79:1
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseComment(MXParser.java:2988) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1420) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1302) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2072) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112) ~[na:na]
+	... 26 common frames omitted
+Caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 2, parser stopped on END_TAG seen ...</build>\n\n</project>\n... @79:1
+	at org.codehaus.plexus.util.xml.pull.MXParser.fillBuf(MXParser.java:3760) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.more(MXParser.java:3776) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseComment(MXParser.java:2901) ~[na:na]
+	... 33 common frames omitted
+2024-02-28 15:54:47,646 [Worker-158: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-02-28 15:54:47,654 [Worker-158: Updating Maven Project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:579) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:547) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:503) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:303) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:413) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:362) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1411) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:361) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:80) ~[org.eclipse.m2e.core.ui_1.19.0.20220206-1032.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: comment started on line 49 and column 6 was not closed (position: END_TAG seen ...</build>\n\n</project>\n... @79:1) caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 2, parser stopped on END_TAG seen ...</build>\n\n</project>\n... @79:1
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:577) ~[na:na]
+	... 14 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: comment started on line 49 and column 6 was not closed (position: END_TAG seen ...</build>\n\n</project>\n... @79:1) caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 2, parser stopped on END_TAG seen ...</build>\n\n</project>\n... @79:1
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseComment(MXParser.java:2988) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1420) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1302) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2072) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112) ~[na:na]
+	... 16 common frames omitted
+Caused by: java.io.EOFException: no more data available - expected end tag </project> to close start tag <project> from line 2, parser stopped on END_TAG seen ...</build>\n\n</project>\n... @79:1
+	at org.codehaus.plexus.util.xml.pull.MXParser.fillBuf(MXParser.java:3760) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.more(MXParser.java:3776) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseComment(MXParser.java:2901) ~[na:na]
+	... 23 common frames omitted
+2024-02-28 15:54:47,656 [Worker-158: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2024-02-28 15:55:21,113 [Worker-162: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:micros_address:0.0.1-SNAPSHOT @ C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address\pom.xml.
+2024-02-28 15:55:21,317 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:55:21,318 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:55:21,320 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address\src\test\resources
+2024-02-28 15:55:22,571 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:55:22,572 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:55:22,574 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address\src\test\resources
+2024-02-28 15:58:07,847 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:58:07,852 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:58:07,853 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 15:58:52,262 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 15:58:52,266 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 15:58:52,267 [Worker-158: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:00:02,027 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:00:02,080 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:00:02,082 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:05:21,779 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:05:21,786 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:05:21,787 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:10:30,400 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:10:30,413 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:10:30,414 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:13:36,231 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:13:36,259 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:13:36,262 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:13:53,312 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:13:53,325 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:13:53,327 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:15:41,354 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:15:41,360 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:15:41,361 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:17:52,954 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:17:52,972 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:17:52,974 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:18:09,088 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:18:09,093 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:18:09,094 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:18:18,270 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:18:18,275 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:18:18,276 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:19:26,731 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:19:26,749 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:19:26,750 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-28 16:20:09,436 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-28 16:20:09,453 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-28 16:20:09,456 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo\src\test\resources
+2024-02-29 09:35:14,668 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-29 09:35:14,670 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes

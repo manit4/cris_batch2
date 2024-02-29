@@ -1,0 +1,12 @@
+package com.example.exceptions;
+
+public class MyCustomException extends RuntimeException {
+
+	String id;
+
+	public MyCustomException(String id) {
+		
+		this.id = id;
+
+	}
+}
