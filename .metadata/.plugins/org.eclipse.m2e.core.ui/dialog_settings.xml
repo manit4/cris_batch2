@@ -69,6 +69,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Manit Hira\Downloads\cris_secondbatch\api_gateway\api_gateway"/>
+			<item value="C:\Users\Manit Hira\Downloads\cris_secondbatch\eureka_server\eureka_server"/>
+			<item value="C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_address\micros_address"/>
+			<item value="C:\Users\Manit Hira\Downloads\cris_secondbatch\micros_demo\micros_demo"/>
 			<item value="C:\Users\Manit Hira\Downloads\cris_secondbatch\jpa_demo\jpa_demo"/>
 			<item value="C:\Users\Manit Hira\Downloads\cris_secondbatch\monitor_demo\monitor_demo"/>
 			<item value="C:\Users\Manit Hira\Downloads\cris_secondbatch\first_springboot\first_springboot"/>

@@ -1,0 +1,11 @@
+
+n	java:S125("<This block of commented-out lines of code should be removed.(‚®’‘8Á‡úŞ1HŞ!RMAJORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(¸§¢¬ûÿÿÿÿ8êÅáøŞ1H!RMAJORZ
+CODE_SMELL
+l
+java:S1128
+"4Remove this unused import 'com.example.dto.Address'.(Ö¹Çóıÿÿÿÿ8Á‡úŞ1Há!RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Éİêæ8ùæİõŞ1Hı RMAJORZ
+CODE_SMELL

@@ -1,0 +1,71 @@
+package com.example.entity;
+
+import java.util.Collection;
+import java.util.HashSet;
+
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
+public class CustomUserDetails implements UserDetails{
+	
+	private User user;
+	
+	public CustomUserDetails(User user) {
+		this.user = user;
+	}
+
+	@Override
+	public Collection<? extends GrantedAuthority> getAuthorities() {
+		System.out.println("insdie roles....");
+		HashSet<SimpleGrantedAuthority> set = new HashSet<>();
+		set.add(new SimpleGrantedAuthority(this.user.getRole()));
+		
+		return set;
+	}
+
+	@Override
+	public String getPassword() {
+		System.out.println("password");
+		// TODO Auto-generated method stub
+		return user.getPassword();
+	}
+
+	@Override
+	public String getUsername() {
+		System.out.println("username");
+		// TODO Auto-generated method stub
+		return user.getId();
+	}
+
+	@Override
+	public boolean isAccountNonExpired() {
+		System.out.println("nonexpired");
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean isAccountNonLocked() {
+		System.out.println("non locked");
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean isCredentialsNonExpired() {
+		System.out.println("non expired");
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean isEnabled() {
+		System.out.println("isenabled....");
+		// TODO Auto-generated method stub
+		return true;
+	}
+	
+	
+
+}

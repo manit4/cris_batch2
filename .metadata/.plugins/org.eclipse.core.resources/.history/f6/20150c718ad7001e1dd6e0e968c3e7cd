@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="margin-left: 400px; margin-right: 500px">
+	<div class="mb-3">
+		<label class="form-label">Usernamee
+			</label> <input type="text" class="form-control">
+	</div>
+	<div class="mb-3">
+		<label class="form-label">Pasword
+			</label> <input type="password" class="form-control">
+	</div>
+	<div class="mb-3">
+		<label class="form-label">Complete Name
+			</label> <input type="text" class="form-control">
+	</div>
+	<button style="margin-left: 150px" type="button" class="btn btn-primary">Login</button>
+	<br>
+	<a href="registrationPage">New User? Register Here!!</a>
+	</div>
+</body>
+</html>

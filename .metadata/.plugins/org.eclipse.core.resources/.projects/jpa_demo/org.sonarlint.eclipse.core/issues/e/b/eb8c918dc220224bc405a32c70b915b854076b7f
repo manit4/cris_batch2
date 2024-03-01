@@ -1,0 +1,16 @@
+
+n
+java:S1128";Remove this unused import 'jakarta.persistence.JoinColumn'.(İçÆ•8ÙËòŞ1HÏRMINORZ
+CODE_SMELL
+a
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8éÇòŞ1HÃRMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ŠÇÕàÿÿÿÿÿ8ÙËòŞ1HÎRMAJORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8éÇòŞ1HÁRMINORZ
+CODE_SMELL
+q
+java:S1128
+"9Remove this unused import 'jakarta.persistence.OneToOne'.(Ç­É™üÿÿÿÿ8ÙËòŞ1HÑRMINORZ
+CODE_SMELL

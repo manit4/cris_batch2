@@ -1,0 +1,26 @@
+package com.example;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class JpaDemoApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+	
+	int add(int val1, int val2) {
+		
+		return val1 + val2;
+	}
+
+	@Test
+	void testt() {
+		
+		assertThat(12).isEqualTo(12);
+	}
+	
+}

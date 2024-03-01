@@ -7,3 +7,17 @@ a
 1src/main/java/com/example/JpaDemoApplication.java,f\5\f5d5bc236bd1d5519d2947becd9d3961ee8cf483
 h
 8src/main/java/com/example/repository/UserRepository.java,c\a\ca2b7ec3237d37dfde531cd95db1e70d922ef4cb
+k
+;src/main/java/com/example/repository/StudentRepository.java,0\1\017d16a1fe19d300d1675dc2e10adef9bf7819bf
+]
+-src/main/java/com/example/entity/Address.java,e\b\eb8c918dc220224bc405a32c70b915b854076b7f
+]
+-src/main/java/com/example/entity/Student.java,3\6\36bb6e9f188e5f856aac6f364e2cb393e52f2d8c
+f
+6src/test/java/com/example/JpaDemoApplicationTests.java,e\1\e1689d8c070ff110002ed22d689e58c04e8de79a
+]
+-src/main/resources/application-uat.properties,7\4\74f6f94677556d69bb63509597bfb0d3c49a7796
+]
+-src/main/resources/application-dev.properties,c\3\c37467157e01027b51d4a92acec42e9af665ad9b
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

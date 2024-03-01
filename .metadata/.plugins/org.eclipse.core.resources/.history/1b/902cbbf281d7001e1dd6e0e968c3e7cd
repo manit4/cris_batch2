@@ -1,0 +1,31 @@
+package com.example.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.to.User;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+
+@RestController
+public class UserController {
+	
+	@GetMapping("/msg")
+	public String message(HttpServletRequest request) {
+		
+		HttpSession session = request.getSession();
+		System.out.println("session is "+session);
+		session.setAttribute("name", "Manu");
+		return "Hello everyone";
+	}
+	@GetMapping("/getUser")
+	public void getUser(HttpServletRequest request) {
+		
+		User user = new User(100, "Manit");
+		
+		HttpSession session = request.getSession();
+		System.out.println(session.getAttribute("name"));
+	}
+
+}

@@ -1,0 +1,86 @@
+package com.example;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.entity.User;
+import com.example.repository.UserRepository;
+
+@SpringBootTest
+class JpaDemoApplicationTests {
+	
+	@Autowired
+	UserRepository userRepository;
+
+	@Test
+	void contextLoads() {
+	}
+	
+//	int add(int val1, int val2) {
+//		
+//		return val1+val2;
+//	}
+	
+//	boolean lengthCheck(String str) {
+//		
+//		boolean status = false;
+//		if(str.length() > 5) {
+//			status = true;
+//		}
+//		return status;
+//	}
+//	
+//	@BeforeEach
+//	void setup() {
+//		System.out.println("setup()");
+//	}
+//	
+//	@AfterEach
+//	void teardown() {
+//		System.out.println("teardown()");
+//	}
+//	
+//	
+//	void beforeAllTests() {
+//		System.out.println("before all tests");
+//	}
+//	
+//	@Test
+//	void addTest() {
+//		
+//		System.out.println("The repo is "+userRepository);
+//		
+//		int expectedResult = 20;
+//		int actualResult = add(10, 10);
+//		
+//		assertThat(actualResult)
+//			.isEqualTo(expectedResult);
+//		
+//	}
+	
+//	@Test
+//	void lengthCheckTest() {
+//		
+//		boolean actualStatus = lengthCheck("Vijay12");
+//		
+//		assertThat(actualStatus).isTrue();
+//	}
+	
+	
+	@Test
+	void getUserByFirstName() {
+		
+		User user = new User(110, "Vijay", "Sharma", "1234");
+		
+		userRepository.save(user);
+		
+		User fetchedUser = userRepository.getUserByFirstName(110, "Vijay");
+		
+		
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+	crossorigin="anonymous">
+</head>
+<body>
+<form action="login" method="post">
+<div style="margin-left: 400px; margin-right: 500px">
+${msg}
+	<div class="mb-3">
+		<label class="form-label">Usernamee
+			</label> <input type="text" class="form-control">
+	</div>
+	<div class="mb-3">
+		<label class="form-label">Pasword
+			</label> <input type="password" class="form-control">
+	</div>
+	<button style="margin-left: 150px" type="submit" class="btn btn-primary">Login</button>
+	<br>
+	<a href="registrationPage">New User? Register Here!!</a>
+	</div></form>
+</body>
+</html>

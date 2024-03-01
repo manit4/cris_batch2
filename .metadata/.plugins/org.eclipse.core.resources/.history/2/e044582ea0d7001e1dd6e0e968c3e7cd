@@ -1,0 +1,25 @@
+package com.example.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.entity.User;
+
+@RestController
+public class UserController {
+	
+	@GetMapping("/msg")
+	public String getMessage() {
+		
+		return "Hello";
+	}
+	
+	@GetMapping("/getUser")
+	public User getUser() {
+		
+		User user = new User(100, "Manit", "1234");
+		
+		return user;
+	}
+
+}

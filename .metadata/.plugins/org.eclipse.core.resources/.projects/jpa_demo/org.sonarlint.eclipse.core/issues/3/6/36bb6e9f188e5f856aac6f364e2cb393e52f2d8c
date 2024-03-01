@@ -1,0 +1,9 @@
+
+a
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8ÆÿÄòÞ1H­RMINORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ú‡ÍÇýÿÿÿÿ8¿úÃòÞ1H›RMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(šöˆŽûÿÿÿÿ8¿úÃòÞ1HRMAJORZ
+CODE_SMELL

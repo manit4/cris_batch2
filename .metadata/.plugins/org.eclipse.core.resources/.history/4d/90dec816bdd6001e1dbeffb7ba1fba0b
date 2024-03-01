@@ -1,0 +1,49 @@
+package com.example;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class JpaDemoApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+	
+	int add(int val1, int val2) {
+		
+		return val1+val2;
+	}
+	
+	boolean lengthCheck(String str) {
+		
+		boolean status = false;
+		if(str.length() > 5) {
+			status = true;
+		}
+		return status;
+	}
+	
+	
+	@Test
+	void addTest() {
+		
+		int expectedResult = 20;
+		int actualResult = add(10, 10);
+		
+		assertThat(actualResult)
+			.isEqualTo(expectedResult);
+		
+	}
+	
+	@Test
+	void lengthCheckTest() {
+		
+		boolean actualStatus = lengthCheck("Vijay12");
+		
+		assertThat(actualStatus).isTrue();
+	}
+	
+}

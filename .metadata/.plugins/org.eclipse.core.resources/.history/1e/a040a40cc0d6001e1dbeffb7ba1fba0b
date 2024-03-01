@@ -1,0 +1,21 @@
+package com.example.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+
+import com.example.entity.User;
+
+public interface UserRepository extends JpaRepository<User, Integer>{
+	
+	public List<User> findByFirstNameAndLastName(String firstName, String lastName);
+	
+	@Query(value = "select * from User_Details", nativeQuery = true)
+	public List<User> getUsers();
+	
+	@Query(value = "select * from User_Details where username = :value and first_name =:value2", nativeQuery = true)
+	public User getUserByFirstName(@Param("value") int val1, @Param("value2") String val2);
+
+}

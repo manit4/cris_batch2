@@ -1,0 +1,86 @@
+package com.example.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.config.http.SessionCreationPolicy;
+
+import com.example.service.CustomUserDetailsService;
+
+@Configuration
+@EnableWebSecurity
+public class SpringConfig extends WebSecurityConfigurerAdapter{
+	
+	@Autowired
+	CustomUserDetailsService customUserDetailsService;
+	
+//	protected void configure(HttpSecurity http) throws Exception {
+//		
+//		System.out.println("1 configure");
+//
+//		http
+//			.authorizeHttpRequests()
+//				.antMatchers("/msg").permitAll()
+//					.antMatchers("/getUser").hasRole("Employee")
+//					.anyRequest()
+//						.authenticated()
+//							.and()
+//								.httpBasic();
+//
+//	}
+	
+	
+	
+	@Autowired
+	JWTAuthenticationFilter authenticationFilter;
+	
+	protected void configure(HttpSecurity http) throws Exception {
+
+		http.csrf().disable().cors().disable()
+			.authorizeHttpRequests()
+			.antMatchers("/token").permitAll()
+				.anyRequest()
+						.authenticated()
+							.and()
+								.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+		
+		//http.addFilterBefore(authenticationFilter, UsernamePasswordAuthenticationFilter.class);
+	
+	
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+		
+		System.out.println("2 configure");
+		
+		auth.userDetailsService(customUserDetailsService).passwordEncoder(encoder());
+		
+//		auth.inMemoryAuthentication().withUser("vijay").password("123").roles("EMPLOYEE");
+//		auth.inMemoryAuthentication().withUser("ashish").password("234").roles("ADMIN");
+		
+
+	}
+//	@Bean
+//	public PasswordEncoder encoder() {
+//		return NoOpPasswordEncoder.getInstance();
+//	}
+	
+	@Bean
+	public PasswordEncoder encoder() {
+		
+		return new BCryptPasswordEncoder();
+	}
+	
+	@Bean
+	public AuthenticationManager authenticationManagerBean() throws Exception {
+		
+		return authenticationManager();
+	}
+	
+}
